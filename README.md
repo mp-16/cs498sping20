@@ -34,7 +34,7 @@ public boolean isRentalOverdue(DateTime datetimeRented) {
 
 public String getBirthMonthText(LocalDate dateOfBirth) {
   return dateOfBirth.monthOfYear().getAsText(Locale.ENGLISH);
-}
+}  
 ```
 
 Joda-Time is licensed under the business-friendly [Apache 2.0 licence](https://www.joda.org/joda-time/licenses.html).
